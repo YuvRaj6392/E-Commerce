@@ -7,7 +7,7 @@ module.exports=mongoose=>{
         password:{type:String},
         isLoggedIn:{type:Boolean},
         token:{type:String},
-        role:{type:String}
+        role:{type:String,default:'user'}
     },{
         timestamps:true
     }));
